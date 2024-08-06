@@ -1,7 +1,7 @@
 {
   "name": "zim32/symfony-tracing-core",
   "type": "symfony-bundle",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Symfony OpenTelemetry integration core bundle",
   "keywords": ["opentelemetry", "tracing", "bundle", "symfony"],
   "authors": [
@@ -11,7 +11,7 @@
     }
   ],
   "require": {
-    "php": ">=7.4",
+    "php": ">=8.0",
     "open-telemetry/sdk": "1.0.*",
     "symfony/dependency-injection": "7.1.* | 6.4.*",
     "symfony/service-contracts": "3.5.*",
