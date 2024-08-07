@@ -7,7 +7,7 @@ use OpenTelemetry\SDK\Common\Attribute\Attributes;
 use OpenTelemetry\SDK\Resource\ResourceDetectorInterface;
 use OpenTelemetry\SDK\Resource\ResourceInfo;
 
-readonly class SymfonyResourceDetector implements ResourceDetectorInterface
+class SymfonyResourceDetector implements ResourceDetectorInterface
 {
     public function __construct(private array $attributes)
     {

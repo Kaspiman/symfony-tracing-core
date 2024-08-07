@@ -20,7 +20,7 @@ use Zim\SymfonyTracingCoreBundle\RootContextProvider;
 use Zim\SymfonyTracingCoreBundle\ScopedSpan;
 use Zim\SymfonyTracingCoreBundle\ScopedTracerInterface;
 
-readonly class RequestEventSubscriber implements EventSubscriberInterface
+class RequestEventSubscriber implements EventSubscriberInterface
 {
     public function __construct(
         private ScopedTracerInterface $tracer,

@@ -7,7 +7,7 @@ use OpenTelemetry\SDK\Resource\ResourceDetectorInterface;
 use OpenTelemetry\SDK\Resource\ResourceInfo;
 use OpenTelemetry\SDK\Resource\ResourceInfoFactory as SdkResourceInfoFactory;
 
-readonly class ResourceInfoFactory
+class ResourceInfoFactory
 {
     public function __construct(
         private ResourceDetectorInterface $resourceDetector,

@@ -7,7 +7,7 @@ use OpenTelemetry\API\Trace\SpanKind;
 use OpenTelemetry\API\Trace\TracerInterface;
 use OpenTelemetry\Context\ContextInterface;
 
-readonly class ScopedTracer implements ScopedTracerInterface
+class ScopedTracer implements ScopedTracerInterface
 {
     public function __construct(
         private TracerInterface $inner

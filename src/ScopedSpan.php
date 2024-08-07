@@ -6,7 +6,7 @@ namespace Zim\SymfonyTracingCoreBundle;
 use OpenTelemetry\API\Trace\SpanInterface;
 use OpenTelemetry\Context\ScopeInterface;
 
-readonly class ScopedSpan
+class ScopedSpan
 {
     public function __construct(
         private SpanInterface $span,
