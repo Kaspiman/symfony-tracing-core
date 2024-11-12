@@ -1,7 +1,7 @@
 {
   "name": "kaspiman/symfony-tracing-core",
   "type": "symfony-bundle",
-  "version": "1.0.2",
+  "version": "1.1",
   "description": "Symfony OpenTelemetry integration core bundle",
   "keywords": ["opentelemetry", "tracing", "bundle", "symfony"],
   "authors": [
